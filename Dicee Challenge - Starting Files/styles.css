@@ -4,15 +4,34 @@
   text-align: center;
 }
 
-.dice {
+.dice1, .dice2 {
   text-align: center;
   display: inline-block;
+}
 
+.submit-name {
+  padding: 12px 15px;
+  background: #ccc;
+  width: 125px;
+  outline: none;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  border: none;
 }
 
 body {
   background-color: #393E46;
 }
+
+label {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: #F4BEEE;
+}
+
 
 h1 {
   margin: 30px;
@@ -38,4 +57,16 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+.custom-input .input-text {
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
 }
